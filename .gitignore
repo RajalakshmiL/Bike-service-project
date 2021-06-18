@@ -1,0 +1,4 @@
+/.htaccess
+/vendor
+public/.htaccess
+/.env
