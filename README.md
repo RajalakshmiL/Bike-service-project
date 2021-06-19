@@ -121,7 +121,7 @@ Request:
 }
 ```
 
-5). https://{{url}}/customer/1 - GET
+5). https://{{url}}/customer/{customer_id} - GET
 
 
 6). https://{{url}}/service/ - POST
@@ -131,18 +131,18 @@ Request:
 }
 ```
 
-7). https://{{url}}/service/5 - PUT
+7). https://{{url}}/service/{service_id} - PUT
 ```
 {
     "service_name": "Brakes Check"
 }
 ```
 
-8). https://{{url}}/service/5 - DELETE
+8). https://{{url}}/service/{service_id} - DELETE
 
 9). https://{{url}}/service/list - GET
 
-10). https://{{url}}/service/3- GET
+10). https://{{url}}/service/{booking_id}  - GET
 
 11). https://{{url}}/service/delivery - POST
 ```
